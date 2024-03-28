@@ -1,0 +1,135 @@
+/* Category.css */
+
+.datatable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .datatable th, .datatable td {
+    border: 2px solid #ada8a8;
+    padding: 28px;
+    text-align: left;
+    background-color: #ffffff;
+  }
+  
+  .datatable th {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .datatable tr:hover {
+    background-color: #ffffff;
+  }
+  
+  .float-left2 {
+    padding-left:360px;
+    padding-right:360px;
+  }
+  .float-left3 {
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom: 100px;
+  }
+  
+  .inline {
+    display: inline-block;
+  }
+  
+  .float-clear {
+    clear: both;
+  }
+  
+  .text-center {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  /* CategoryDetail.css */
+
+.float-right {
+    float: right;
+    max-width: 300px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+#btn-edit,#btn-delete{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px; /* Điều chỉnh khoảng cách từ nút đến ô */
+  font-size: 15px;
+  width:70px;
+  height:33px;
+  text-align: center;
+  float:center;
+  border-radius: 5px;
+  font-weight:normal;
+  color:rgb(255, 246, 246);
+}
+#btn-new{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  font-size: 15px;
+  width: 90px;
+  height: 33px;
+  text-align: center;
+  float: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+  
+}
+#btn-back{
+  background-color: #ffc107;
+  color: #212529;
+}
+#modalID{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#modalName{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.save-back-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -10px; /* Điều chỉnh khoảng cách từ nút đến ô */
+}
+#btn-delete{
+  background-color:red;
+  
+
+}
+#btn-edit{
+  background-color: #ffc107;
+  color: #212529;
+
+}
+#btn-save,
+#btn-back {
+  margin-left: 15px; /* Điều chỉnh khoảng cách giữa nút Save và Back */
+  margin-right: 10px;
+  width:77px;
+  font-size: 15px;
+  width:70px;
+  height:37px;
+  margin-top: 40px;
+  border-radius: 5px;
+  
+}
+#btn-edit:hover,
+#btn-delete:hover,
+#btn-save:hover,
+#btn-back:hover,
+#btn-new:hover {
+  background-color: #8c8b8c;
+  
+}
+#edit{
+  margin-bottom: 40px;
+}

@@ -1,0 +1,46 @@
+#Cancel,#Approve,#View{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    font-size: 15px;
+    width: 70px;
+    height: 33px;
+    text-align: center;
+    float: center;
+    border-radius: 5px;
+    font-weight: normal;
+    color: rgb(255, 246, 246);
+}
+#Cancel{
+    background-color: red;
+}
+#Approve{
+    background-color: #ffc107;
+    color: #212529;
+}
+#back-order{
+    background-color: #ffc107;
+    color: #212529;
+    margin-left:900px;
+    width: 77px;
+    font-size: 15px;
+    width: 70px;
+    height: 37px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#back-order2{
+    background-color: #ffc107;
+    color: #212529;
+    margin-left:1050px;
+    width: 77px;
+    font-size: 15px;
+    width: 70px;
+    height: 37px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#float-left4{
+ margin:1000px;
+}
