@@ -1,0 +1,197 @@
+
+div .col-md-3{
+    padding: 20px;
+}
+#list-name{
+    padding-top:50px;
+}
+
+.img-fluid{
+    width: 100%;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 25px;
+}
+.container .card1{
+    background: white;
+}
+.cart i{
+    color: white;
+}
+#card1{
+
+    color: black;
+
+    cursor: pointer;
+    margin:5px;
+    width:24%;
+}       
+
+.product-details a{
+    color: black;
+    text-decoration: none;
+}
+
+.kind{
+
+    margin-top: -65px; 
+    transition: all 0.5s;  
+}
+
+.kind small{
+    color: gray;
+}
+
+.buttons {
+    padding: 10px;
+    background-color: #d6d4d44f;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 7px;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.dot {
+    height: 14px;
+    width: 14px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    left: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    color: #fff;
+    opacity: 0;
+}
+
+.cart-button {
+    height: 48px
+}
+
+.cart-button:focus {
+    box-shadow: none
+}
+
+.cart {
+    position: relative;
+    height: 48px !important;
+    width: 50px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+
+}
+
+.cart-button.clicked span.dot {
+    animation: item 0.3s ease-in forwards
+}
+
+.star1 span{
+    color: rgba(255, 131, 0, 1);
+}
+#sortSelect{
+    width:150px;
+}
+
+@keyframes item {
+    0% {
+        opacity: 1;
+        top: 30%;
+        left: 30%
+    }
+
+    25% {
+        opacity: 1;
+        left: 26%;
+        top: 0%
+    }
+
+    50% {
+        opacity: 1;
+        left: 23%;
+        top: -22%
+    }
+
+    75% {
+        opacity: 1;
+        left: 19%;
+        top: -18%
+    }
+
+    100% {
+        opacity: 1;
+        left: 14%;
+        top: 28%
+    }
+}
+
+
+
+.card1:hover .buttons{
+
+    opacity: 1;
+}
+
+.card1:hover .kind{
+    margin-top: 10px;
+}
+
+.card1:hover{
+
+    transform: scale(1.04);
+    z-index: 2;
+    overflow: hidden;
+}
+    /* Medium Device = 1200px */
+    
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        #card1{
+
+
+            margin: 5px;
+            width:310px;
+            height:500px;
+        }   
+    }
+    /* Tablet Device = 768px */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        #card1{
+
+ 
+            margin: 5px;
+            margin-left:30px;
+            width:310px;
+            height:500px;
+        }   
+    }
+    /* Wide Mobile = 480px */
+    
+    @media only screen and (max-width: 479px) {
+        #card1{
+
+
+            margin: 5px;
+            width:350px;
+            height:500px;
+            margin-left:40px;
+        }   
+    }
+    @media only screen and (max-width: 400px) {
+        #card1{
+
+            margin: 10px;
+            width:300px;
+            height:500px;
+        }   
+    }
